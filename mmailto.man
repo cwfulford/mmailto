@@ -1,5 +1,4 @@
-.TH MMAILTO 8l "18 May r1.5
-1.4
+.TH MMAILTO 8l "18 May r1.6
 .SH NAME
 .B mmailto
 - wrapper script to invoke mutt from the 
@@ -7,9 +6,9 @@
 .BR firefox .
 .SH SYNOPSIS
 \fBmmailto\fR
-[\fB-c \fI<config_file>\fR]
+[[\fB-c \fI<config_file>\fR]
 [\fB-d\fR]
-[\fB-v \fR]
+[\fB-v \fR]]|[\fB-V\fR]]
 .br
 .SH AVAILABILITY
 .B mmailto
@@ -38,6 +37,9 @@ and each command in the script is echoed to the console.
 .TP 5
 .B -v
 Doesn't do anything at all at present and probably never will.
+.TP 5
+.B -V
+Prints version details and terminates.
 .SH FILES
 .IR mmailto.cf .
 .SH EXAMPLES
