@@ -8,7 +8,7 @@
 \fBmmailto\fR
 [[\fB-c \fI<config_file>\fR]
 [\fB-d\fR]
-[\fB-v \fR]]|[\fB-V\fR]]
+[\fB-v \fR]] | [\fB-V\fR]]
 .br
 .SH AVAILABILITY
 .B mmailto
