@@ -1,0 +1,29 @@
+<pre>
+
+# $Id: mmailto.cf,v 1.2 2014/05/20 21:23:56 fulford Exp $
+# $Source: /src/merlin/usr/local/etc/RCS/mmailto.cf,v $
+# $Revision: 1.2 $
+# Author C W Fulford.
+# Copyright 2014 (c) C W Fulford.
+# Licensed for public use under the LGPL, .
+# For assistance contact fulford@fulford.net 0709 229 5385
+########################################################################
+# 
+mua="/usr/bin/mutt"
+vterm="/usr/bin/terminal -e"
+######################################################################
+# This program is free software: you can redistribute it and or      #
+# modify it under the terms of the Lesser GNU General Public License #
+# as published by the Free Software Foundation, either version 3 of  #
+# the License, or (at your option) any later version.                #
+#                                                                    #
+# This program is distributed in the hope that it will be useful,    #
+# but WITHOUT ANY WARRANTY; without even the implied warranty of     #    
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the      #
+# GNU General Public License for more details.                       #
+#                                                                    # 
+# A copy of the Lesser GNU General Public License and the GNU        #
+# General Public License is available at                             #
+# &#60;http://www.gnu.org/licenses/&#62;.                                    #
+######################################################################
+</pre>
