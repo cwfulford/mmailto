@@ -1,165 +1,111 @@
+<h2 id="heading1">NAME</h2>
+<p class="indent">
+<b><a href="./scripts.php?script=mmailto">mmailto</a></b>
+- wrapper script to invoke mutt from the 
 
-<p><a href="#heading1">NAME</a><br/>
-<a href="#heading2">SYNOPSIS</a><br/>
-<a href="#heading3">AVAILABILITY</a><br/>
-<a href="#heading4">DESCRIPTION</a><br/>
-<a href="#heading5">OPTIONS</a><br/>
-<a href="#heading6">FILES</a><br/>
-<a href="#heading7">EXAMPLES</a><br/>
-<a href="#heading8">BUGS</a><br/>
-<a href="#heading9">SEE ALSO</a><br/>
-<a href="#heading10">AUTHOR</a><br/>
-<a href="#heading11">HISTORY</a><br/>
+<b>mailto:</b>
+ URI in
+<b>firefox.</b>
+</p>
+<h2 id="heading2">SYNOPSIS</h2>
+<p class="indent">
+
+<b><a href="./scripts.php?script=mmailto">mmailto</a></b>
+
+[[
+<b>-c </b>
+<i>&lt;config_file&gt;</i>
+]
+[
+<b>-d</b>
+]
+[
+<b>-v </b>
+]] | [
+<b>-V</b>
+]]
+<br/>
+</p>
+<h2 id="heading3">AVAILABILITY</h2>
+<p class="indent">
+<b><a href="./scripts.php?script=mmailto">mmailto</a></b>
+is a Bourne shell script which should work equally well on all versions of UNIX,
+Linux and Mac OS X.
+</p>
+<h2 id="heading4">DESCRIPTION</h2>
+<p class="indent">
+<b><a href="./scripts.php?script=mmailto">mmailto</a></b>
+passes the parameters from the 
+<b>mailto: </b>
+URI to a virtual terminal running
+<b>mutt.</b>
+</p>
+<h2 id="heading5">OPTIONS</h2>
+<p class="indent">
+</p>
+<p class="indent">
+<b>-c</b>&nbsp;&nbsp;&nbsp;
+Use the specified configuration file in preference to the default
+
+<i>"/usr/local/etc/<a href="./scripts.php?script=mmailto.cf">mmailto.cf</a>"</i>
+.
+If no configuration file is found the 
+script will continue with the default MUA
+<b>mutt</b>
+running in "
+<b>terminal</b>
+".
+</p>
+<p class="indent">
+<b>-d</b>&nbsp;&nbsp;&nbsp;
+Set debug mode on. 
+The 
+<b>-x</b>&nbsp;&nbsp;&nbsp;
+ option is set within the shell
+and each command in the script is echoed to the console.
+</p>
+<p class="indent">
+<b>-v</b>&nbsp;&nbsp;&nbsp;
+Doesn't do anything at all at present and probably never will.
+</p>
+<p class="indent">
+<b>-V</b>&nbsp;&nbsp;&nbsp;
+Prints version details and terminates.
+</p>
+<h2 id="heading7">FILES</h2>
+<p class="indent">
+<i><a href="./scripts.php?script=mmailto.cf">mmailto.cf</a></i>.
+</p>
+<h2 id="heading6">EXAMPLES</h2>
+<p class="indent">
 
 </p>
-<hr/>
-
-
-<h2 id="heading1">NAME
-</h2>
-
-
-<p style="margin-left:11%; margin-top: 1em"><b><a href="./scripts.php?script=mmailto">mmailto</a></b>
-- wrapper script to invoke mutt from the <b>mailto:</b> URI
-in <b>firefox</b>.</p>
-
-<h2 id="heading2">SYNOPSIS
-</h2>
-
-
-<p style="margin-left:11%; margin-top: 1em"><b><a href="./scripts.php?script=mmailto">mmailto</a></b>
-[[<b>-c</b> <i>&lt;config_file&gt;</i>] [<b>-d</b>]
-[<b>-v</b> ]] | [<b>-V</b>]]</p>
-
-<h2 id="heading3">AVAILABILITY
-</h2>
-
-
-<p style="margin-left:11%; margin-top: 1em"><b><a href="./scripts.php?script=mmailto">mmailto</a></b>
-is a Bourne shell script which should work equally well on
-all versions of UNIX, Linux and Mac OS X.</p>
-
-<h2 id="heading4">DESCRIPTION
-</h2>
-
-
-<p style="margin-left:11%; margin-top: 1em"><b><a href="./scripts.php?script=mmailto">mmailto</a></b>
-passes the parameters from the <b>mailto:</b> URI to a
-virtual terminal running <b>mutt</b>.</p>
-
-<h2 id="heading5">OPTIONS
-</h2>
-
-
-<table width="100%" border="0" rules="none" frame="void"
-       cellspacing="0" cellpadding="0">
-<colgroup><col width="11%"></col>
-<col width="3%"></col>
-<col width="4%" class="center"></col>
-<col width="82%"></col>
-</colgroup>
-<tr valign="top" align="left">
-<td></td>
-<td>
-
-
-<p style="margin-top: 1em"><b>-c</b></p></td>
-<td></td>
-<td>
-
-
-<p style="margin-top: 1em">Use the specified configuration
-file in preference to the default
-<i>&quot;/usr/local/etc/mmailto.cf&quot;</i>. If no
-configuration file is found the script will continue with
-the default MUA <b>mutt</b> running in
-&quot;<b>terminal</b>&quot;.</p> </td></tr>
-<tr valign="top" align="left">
-<td></td>
-<td>
-
-
-<p><b>-d</b></p></td>
-<td></td>
-<td>
-
-
-<p>Set debug mode on. The <b>-x</b> option is set within
-the shell and each command in the script is echoed to the
-console.</p> </td></tr>
-<tr valign="top" align="left">
-<td></td>
-<td>
-
-
-<p><b>-v</b></p></td>
-<td></td>
-<td>
-
-
-<p>Doesn&rsquo;t do anything at all at present and probably
-never will.</p></td></tr>
-<tr valign="top" align="left">
-<td></td>
-<td>
-
-
-<p><b>-V</b></p></td>
-<td></td>
-<td>
-
-
-<p>Prints version details and terminates.</p></td></tr>
-</table>
-
-<h2 id="heading6">FILES
-</h2>
-
-
-
-<p style="margin-left:11%; margin-top: 1em"><i><a href="./scripts.php?script=mmailto.cf">mmailto.cf</a></i>.</p>
-
-<h2 id="heading7">EXAMPLES
-</h2>
-
-
-<p style="margin-left:11%; margin-top: 1em">In
-<b>firefox</b> select <br/>
-&quot;prefences&quot;, &quot;applications&quot;,
-&quot;mailto&quot;, &quot;Use other ...&quot;.</p>
-
-<p style="margin-left:11%; margin-top: 1em">Type in the
-full path name to the script as below.</p>
-
-<pre style="margin-left:11%;">     /usr/local/bin/mmailto</pre>
-
-
-<h2 id="heading8">BUGS
-</h2>
-
-
-<p style="margin-left:11%; margin-top: 1em">The script is
-quite crude and has very little, if any, error checking. The
-consequences of unexpected input are untested.</p>
-
-<h2 id="heading9">SEE ALSO
-</h2>
-
-
-
-<p style="margin-left:11%; margin-top: 1em"><a href="./scripts.php?script=webupd&amp;man=y">webupd</a>.</p>
-
-<h2 id="heading10">AUTHOR
-</h2>
-
-
-<p style="margin-left:11%; margin-top: 1em">Clifford W
-Fulford, <a href="http://www.citylinux.com"
-title="Go to the City Linux homepage">
-City Linux
-</a>. Contact <a href="mailto:fulford@fulford.net" title="Send mail to Clifford W Fulford">fulford@fulford.net</a> or +44
-(0)709 229 5385.</p>
-
-<h2 id="heading11">HISTORY
-</h2>
-<hr/>
+<p class="indent">
+In 
+<b>firefox</b>
+select
+<br/>
+"prefences", "applications", "mailto", "Use other ...".
+</p>
+<p class="indent">
+Type in the full path name to the script as below.
+</p><div class="cmdline">
+<pre>
+	/usr/local/bin/mmailto 
+</pre></div>
+<p class="indent">
+</p>
+<h2 id="heading8">BUGS</h2>
+<p class="indent">
+The script is quite crude and has very little, if any,  error checking.
+The consequences of unexpected input are untested.
+</p>
+<h2 id="heading9">SEE ALSO</h2>
+<p class="indent">
+<a href="./scripts.php?script=webupd&man=y"><i>webupd</i>.</a>
+</p>
+<h2 id="heading10">AUTHOR</h2>
+<p class="indent">
+Clifford W Fulford, City Linux. Contact fulford@fulford.net or +44 (0)709 229 5385.
+</p>
+	
